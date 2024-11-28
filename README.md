@@ -1,17 +1,14 @@
-# Datei Verschlüsselung/Entschlüsselung
+# File Encryption/Decryption
 
-Dieses Python-Skript bietet eine grafische Benutzeroberfläche (GUI) zur Verschlüsselung und Entschlüsselung von Dateien mit einem Passwort. Es nutzt die **PBKDF2-HMAC**-KDF (Key Derivation Function) aus der Bibliothek **cryptography**, um einen sicheren Schlüssel zu erzeugen, und verwendet **Fernet** zur symmetrischen Verschlüsselung von Daten.
+This Python script provides a graphical user interface (GUI) to encrypt and decrypt files using a password. It uses the **PBKDF2-HMAC** key derivation function from the **cryptography** library to generate a secure key and **Fernet** for symmetric encryption of data.
 
-## Anforderungen
+## Requirements
 
-Für die Ausführung dieses Skripts müssen die folgenden Python-Bibliotheken installiert sein:
+To run this script, you will need the following Python libraries installed:
 
-cryptography
-tkinter
+### Python Libraries
 
-### Python-Bibliotheken
-
-Stelle sicher, dass alle benötigten Bibliotheken installiert sind. Du kannst die Anforderungen einfach mit dem folgenden Befehl installieren:
+Make sure all required libraries are installed. You can easily install them with the following command:
 
 ```bash
 pip install -r requirements.txt
