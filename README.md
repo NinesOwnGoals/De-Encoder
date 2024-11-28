@@ -6,6 +6,11 @@ This Python script provides a graphical user interface (GUI) to encrypt and decr
 
 To run this script, you will need the following Python libraries installed:
 
+customtkinter
+pytesseract
+pdf2image
+Pillow
+
 ### Python Libraries
 
 Make sure all required libraries are installed. You can easily install them with the following command:
